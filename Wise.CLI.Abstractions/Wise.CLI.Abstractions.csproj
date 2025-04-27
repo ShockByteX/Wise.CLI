@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>Wise.CLI.Abstractions</PackageId>
+		<PackageVersion>1.0.3</PackageVersion>
+		<Description>Attributes, logic for Wise.CIL.</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../Logo.png" Pack="true" PackagePath="/" />
+	</ItemGroup>
+</Project>
