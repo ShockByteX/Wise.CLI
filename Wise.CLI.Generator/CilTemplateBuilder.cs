@@ -171,7 +171,7 @@ internal sealed class CilTemplateBuilder(string ns, string className)
         return type.SpecialType switch
         {
             SpecialType.System_String => "arg",
-            SpecialType.System_Boolean => "bool.Parse(arg, CultureInfo.InvariantCulture)",
+            SpecialType.System_Boolean => "bool.Parse(arg)",
             SpecialType.System_Byte => "byte.Parse(arg, CultureInfo.InvariantCulture)",
             SpecialType.System_Int16 => "short.Parse(arg, CultureInfo.InvariantCulture)",
             SpecialType.System_UInt16 => "ushort.Parse(arg, CultureInfo.InvariantCulture)",
