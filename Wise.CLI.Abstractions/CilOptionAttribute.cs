@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Wise.CLI.Generator;
+﻿namespace Wise.CLI;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class CliOptionAttribute : Attribute

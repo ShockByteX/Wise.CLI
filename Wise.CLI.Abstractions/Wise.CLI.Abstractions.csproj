@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<PackageId>Wise.CLI.Abstractions</PackageId>
-		<PackageVersion>1.0.3</PackageVersion>
+		<PackageVersion>1.0.4</PackageVersion>
 		<Description>Attributes, logic for Wise.CIL.</Description>
 	</PropertyGroup>
 	<ItemGroup>

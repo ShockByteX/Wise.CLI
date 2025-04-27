@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Wise.CLI.Generator;
+﻿namespace Wise.CLI;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class CliOptionsAttribute(bool generateHelp = true) : Attribute
