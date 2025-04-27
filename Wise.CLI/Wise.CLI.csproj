@@ -4,13 +4,13 @@
 		<IncludeBuildOutput>false</IncludeBuildOutput>
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<PackageId>Wise.CLI</PackageId>
-		<PackageVersion>1.0.4</PackageVersion>
+		<PackageVersion>1.0.5</PackageVersion>
 		<Description>Lightweight, AOT-safe CLI argument parser with source generation.</Description>
 	</PropertyGroup>
 	<ItemGroup>
 		<EmbeddedResource Include="../License.md" />
 		<None Include="../Logo.png" Pack="true" PackagePath="/" />
-		<PackageReference Include="Wise.CLI.Abstractions" Version="1.0.4" />
-		<PackageReference Include="Wise.CLI.Generator" Version="1.0.4" />
+		<PackageReference Include="Wise.CLI.Abstractions" Version="1.0.5" />
+		<PackageReference Include="Wise.CLI.Generator" Version="1.0.5" />
 	</ItemGroup>
 </Project>
